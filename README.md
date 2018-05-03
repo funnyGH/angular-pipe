@@ -1,6 +1,6 @@
 #############
-1、 管道 ‘formatMoneyInit ’的使用：
 
+1、 管道 ‘formatMoneyInit ’的使用：
 
 {{num | formatMoneyInit}}
 
@@ -9,3 +9,7 @@
 
 {{num | parseNumChinese }} 或者
 {{num | parseNumChinese:"chinese" }}   
+
+3、JavaScript实现将多位数转换成中文
+
+parseChineseWord(10040505)
